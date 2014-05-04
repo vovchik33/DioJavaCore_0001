@@ -1,7 +1,7 @@
 package edu.dio.lesson1;
 
 /**
- * Created by unclejoe33 on 04.05.2014.
+ * Created by Vladimir V.Kravchenko on 04.05.2014.
  */
 public class Person {
     private String firstName;

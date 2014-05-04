@@ -1,12 +1,15 @@
 package edu.dio.lesson1;
 
+/**
+ *  Created by Vladimir V.Kravchenko on 04.05.2014.
+ */
 public class Main {
     public static void main(String[] args) {
         Person student;
         Person adult;
         Person anotherAdult1, anotherAdult2;
 
-        //object initialization
+        //objects initialization
         student = new Person();
         adult = new Person("SomeFirstName", "SomeLastName", "SomeDescription");
         anotherAdult1 = adult;
@@ -18,7 +21,7 @@ public class Main {
         System.out.println(anotherAdult1);
         System.out.println(anotherAdult2);
 
-        //object comparison
+        //objects comparison
         System.out.println(student == adult);                 //false - different references
         System.out.println(adult == anotherAdult1);           //true  - equal reference
         System.out.println(anotherAdult1 == anotherAdult2);   //false - different references
