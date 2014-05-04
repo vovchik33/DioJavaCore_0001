@@ -1,7 +1,6 @@
-import edu.dio.lesson1.Person;
+package edu.dio.lesson1;
 
 public class Main {
-
     public static void main(String[] args) {
         Person student;
         Person adult;
